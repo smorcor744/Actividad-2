@@ -10,7 +10,7 @@ package org.ventanas.Kotlin
 //System.out.println("El personaje " + personaje + " tiene " + vida + " puntos de vida.");
 //}
 //}
-fun Ejercicio1() {
+fun eje1() {
     val vida = 100
     val personaje = "Naruto"
     println("El personaje $personaje tiene $vida puntos de vida.")

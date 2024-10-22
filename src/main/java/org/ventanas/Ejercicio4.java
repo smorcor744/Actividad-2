@@ -14,7 +14,7 @@ println("Número: $i")
 }
 */
 public class Ejercicio4 {
-    public void execute(){
+    public static void execute(){
         for (var i = 1; i <= 5; i++){
             if (i == 3){
                 continue;

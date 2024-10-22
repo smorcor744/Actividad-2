@@ -11,7 +11,7 @@ package org.ventanas;
 //}
 //}
 public class Ejercicio6 {
-    public void execute(){
+    public static void execute(){
         String personaje = null;
         if (personaje != null) {
             System.out.println("El personaje es " + personaje);

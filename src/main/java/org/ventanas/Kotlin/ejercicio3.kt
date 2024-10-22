@@ -13,7 +13,7 @@ System.out.println("Has encontrado: " + cofre);
 }
 }
 }*/
-fun ejercicio3(){
+fun eje3(){
     val cofres = listOf("Espada","Escudo","Poción")
     cofres.forEach { println("Has encontrado: $it")}
 }

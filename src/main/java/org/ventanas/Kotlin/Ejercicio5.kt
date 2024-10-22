@@ -1,4 +1,7 @@
 package org.ventanas.Kotlin
+
+import java.sql.DriverManager.println
+
 /*Ejercicio 5: Definición de una clase en Java y Kotlin
 Vamos a ver cómo crear una clase simple para un personaje con atributos como nombre,
 vida y ataque.
@@ -24,7 +27,7 @@ goku.mostrarInfo();
 */
 class Personaje(
     val nombre: String,
-    val vida:Int,
+    var vida:Int,
     val ataque:Int,
 ){
     fun mostrarInfo(){
